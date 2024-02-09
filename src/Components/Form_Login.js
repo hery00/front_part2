@@ -28,9 +28,9 @@ function Form_Login(){
       console.log('Etat:', data.etat);
       if (data.etat === 0) {
         window.location.href = "/";
-      } else if (data.etat === 1) {
-        window.location.href = "/AccueilAdmin";
       }
+        window.location.href = "/AccueilAdmin";
+      
   
     } catch (error) {
       console.error('Une erreur s\'est produite lors de la connexion :', error);
