@@ -11,7 +11,7 @@ function Form_Login(){
     e.preventDefault();
   
     try {
-      const url = `https://cloud2024part2-production.up.railway.app/selectPersonnewhere?email=${email}&pwd=${password}`;
+      const url = `https://cloud2024part2-production.up.railway.app/api/selectPersonnewhere?email=${email}&pwd=${password}`;
   
       const response = await fetch(url, {
         method: 'GET',

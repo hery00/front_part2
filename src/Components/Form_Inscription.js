@@ -14,7 +14,7 @@ function Form_Inscription() {
     e.preventDefault();
 
     try {
-      const url = 'https://cloud2024part2-production.up.railway.app/api/Personne/insertPersonne';
+      const url = 'https://cloud2024part2-production.up.railway.app/api/insertPersonne_client';
 
       const response = await fetch(url, {
         method: 'POST',

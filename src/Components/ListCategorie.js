@@ -14,7 +14,7 @@ const List_Parcelle = () => {
     const fetchData = async () => {
       try {
     
-        const response = await fetch('https://cloud2024part2-production.up.railway.app/list_categorie');
+        const response = await fetch('https://cloud2024part2-production.up.railway.app/api/list_categorie');
      
         if (!response.ok) {
           throw new Error('Network response was not ok');
