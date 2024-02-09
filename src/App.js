@@ -44,7 +44,7 @@ const router=createBrowserRouter([
     element:
     <div>
         <Header />
-        <SideBarClient />
+        <SideBarAdmin/>
         <Recherche/>
         <List_Parcelle_Terrain/>
         <List_Terrain/>
